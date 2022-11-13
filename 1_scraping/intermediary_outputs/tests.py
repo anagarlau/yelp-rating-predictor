@@ -13,6 +13,6 @@ dataFrame.drop(['Unnamed: 0'], axis=1, inplace=True)
 
 
 header =["Index", "Restaurant Name", "Overall Rating", "Total Reviews", "Specialty", "Region", "Price Range", "Author", "Comment", "Rating", "Date"]
-dataFrame.to_csv("german_merged.csv")
+dataFrame.to_csv("test_german_merged.csv")
 
 

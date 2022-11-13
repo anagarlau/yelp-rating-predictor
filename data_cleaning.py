@@ -5,7 +5,7 @@ import nltk
 import string
 
 
-yelp = pd.read_csv('german_merged.csv')
+yelp = pd.read_csv('1_scraping/intermediary_outputs/test_german_merged.csv')
 yelp.columns.values[0]="ID"
 yelp = yelp.rename(columns={'Overall Rating':'Overall_Rating',
                             "Total Reviews":'Total_Reviews',
