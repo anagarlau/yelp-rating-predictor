@@ -11,5 +11,9 @@ yelp = yelp.rename(columns={'Overall Rating':'Overall_Rating',
                             "Total Reviews":'Total_Reviews',
                             "Restaurant Name":"Restaurant_Name",
                             "Price Range":"Price_Range"})
-print(yelp)
+comments = yelp[['ID', 'Comment']][:3]
+print(type(comments))
+
+pd.set_option('max_colwidth', 800)
+print(comments)
 #%%
