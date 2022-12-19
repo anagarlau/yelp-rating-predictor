@@ -1,0 +1,13 @@
+jupyter
+pandas
+spacy
+#python -m spacy download de_core_news_md
+beautifulsoup4
+urllib3
+nltk
+keras
+imblearn
+matplotlib
+pip install "tensorflow<2.11"
+#pip install -U textblob-de
+#python -m textblob.download_corpora
