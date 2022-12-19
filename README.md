@@ -6,12 +6,14 @@
 In the era of internet shopping and dining, online reviews play a pivotal role in the customers' decision-making process.
 
 According to a 2016 Yelp-specific study, a one-star improvement in Yelp rating can help restaurants increase their revenues by 9%<sup>[1](#myfootnote1)</sup>.
-Given the importance of online reviews for the hospitality industry, fake reviews detection is a great concern for restaurant owners. While the means to detect them are fairly limited, there have been several approaches to the topic. 
-While some research relies heavily on metadata in order to detect potential fake reviews, some studies have focused on sentiment analysis and the disparity between the sentiment score of a given review and  the numeric rating (1 to 5) attached to the reviews.
+Given the importance of online reviews for the hospitality industry, fake reviews detection is a great concern for restaurant owners. 
+
+Unfortunately, the automated means of fake detection remain fairly limited and still cannot replace the human grasp of both textual and metatextual information.
+While some research relies heavily on metadata in order to detect potential fake reviews, some studies focus on sentiment analysis and the disparity between the sentiment score of a given review and  the numeric rating (1 to 5) attached to the reviews.
 This pattern of inconsistency between rating and the sentiment conveyed in a given review has been found to be a marker for fake reviews.<sup>[2](#myfootnote3)</sup>.
 
 The present project follows the same approach using a self-scraped dataset of ~ 10,000 German-speaking Yelp reviews and ratings.
-Our project relies heavily on Luo et al, 2021<sup>[3](#myfootnote3)</sup> and Chiny et al, 2021 <sup>[4](#myfootnote4)</sup>.
+Our project relies heavily on Luo et al, 2021<sup>[3](#myfootnote3)</sup> and Chiny et al, 2021<sup>[4](#myfootnote4)</sup>.
 The main goals consist of 
   - detecting reviews with mismatched rating 
   - labeling mismatched reviews as potential candidates for fake reviews. 
