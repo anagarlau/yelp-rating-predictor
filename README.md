@@ -12,7 +12,7 @@ Unfortunately, the automated means of fake detection remain fairly limited and s
 While some research relies heavily on metadata in order to detect potential fake reviews, some studies focus on sentiment analysis and the disparity between the sentiment score of a given review and  the numeric rating (1 to 5) attached to the reviews.
 This pattern of inconsistency between rating and the sentiment conveyed in a given review has been found to be a marker for fake reviews.<sup>[2](#myfootnote3)</sup>.
 
-The present project follows the same approach using a self-scraped dataset of ~ 10,000 German-speaking Yelp reviews and ratings.
+The present project follows the latter approach using a self-collected dataset of ~ 10,000 German-speaking Yelp reviews and ratings.
 Our project relies heavily on Luo et al, 2021<sup>[3](#myfootnote3)</sup> and Chiny et al, 2021<sup>[4](#myfootnote4)</sup>.
 The main goals consist of 
   - detecting reviews with mismatched rating 
