@@ -3,6 +3,9 @@
 #### Gruppe 18 - HTW BERLIN 
 
  
+#### Before Testing the Code please download the Glove word vectors for German from <a href="https://www.deepset.ai/german-word-embeddings">DeepSet AI</a> 
+
+
 In the era of internet shopping and dining, online reviews play a pivotal role in the customers' decision-making process.
 
 According to a 2016 Yelp-specific study, a one-star improvement in Yelp rating can help restaurants increase their revenues by 9%<sup>[1](#myfootnote1)</sup>.
@@ -28,8 +31,6 @@ The model leverages features engineered by three separate prediction models, nam
 
 The analyzed dataset was scraped from Yelp and contains 9719 ratings and German-speaking reviews for restaurants located in Berlin.
 The CSV can be found at path: 1_scraping/intermediary_outputs/german_merged.csv
-//TODO: ReadMe for Scraper
-
 
 2. <b> Data cleaning and text pre-processing [2_text_preprocessing] </b>
 
@@ -37,6 +38,8 @@ In order to improve the accuracy of the models, links, numbers, symbols, special
 Stopwords were removed before tokenization and lemmatization of each textual review.
 
 3. <b> Modelling [3_modelling] </b>
+
+
 
 4. <b> Evaluation </b>
 
