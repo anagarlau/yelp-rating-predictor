@@ -2,8 +2,11 @@
 
 #### Gruppe 18 - HTW BERLIN 
 
-Ana-Maria Garlau (Matrikelnummer: 580873)
-Maximilian Gäble (Matrikelnummer: 575515)
+Team Members:
+
+- Ana-Maria Garlau (Matrikelnummer: 580873)
+
+- Maximilian Gäble (Matrikelnummer: 575515)
  
 #### ❗ Before Testing the Code please download the Glove word vectors for German from <a href="https://www.deepset.ai/german-word-embeddings">DeepSet AI</a> 
 
