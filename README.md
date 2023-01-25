@@ -40,11 +40,13 @@ Stopwords were removed before tokenization and lemmatization of each textual rev
 CSV with cleaned data is located at "2_text_preprocessing/cleaned_data_yelp.txt".
 
 3. <b> Modelling [3_modelling] </b>
+
 The Hybrid Yelp Rating Predictor uses the outputs  from 3 separate models. 
 Outputs have been saved to a csv file "/3_modelling/yelp_cleaned_sentiscored.csv". 
 The notebook "Hybrid_Yelp_Predictor.ipynb" contains the entire modelling pipeline and its evaluation metrics.  ("3_modelling/Hybrid_Yelp_Predictor.ipynb").
  
 4. <b> Evaluation </b>
+
 The results for each model together with the potential fakes based on mismatched ratings are towards the end of the "Hybrid_Yelp_Predictor.ipynb" notebook.
 
 <a name="myfootnote1">1</a>: Luca, M. 2016, <i> [Reviews, Reputation, and Revenue: The case of Yelp.com](https://www.hbs.edu/ris/Publication%20Files/12-016_a7e4a5a2-03f9-490d-b093-8f951238dba2.pdf) </i>
