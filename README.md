@@ -33,18 +33,25 @@ The model leverages features engineered by three separate prediction models, nam
 1. <b> Data collection [1_webscraping] </b>
 
 The analyzed dataset was scraped from Yelp and contains 9719 ratings and German-speaking reviews for restaurants located in Berlin.
+
 The CSV can be found at path: "1_web_scraping/german_merged.csv".
 
 2. <b> Data cleaning and text pre-processing [2_text_preprocessing] </b>
 
 In order to improve the accuracy of the models, links, numbers, symbols, special characters and punctuation were removed.
 Stopwords were removed before tokenization and lemmatization of each textual review.
+
+Pre-processing code, including Data Visualizations, are in "2_text_preprocessing/Notebook Data_cleaning.ypynb".
+
 CSV with cleaned data is located at "2_text_preprocessing/cleaned_data_yelp.txt".
+
 
 3. <b> Modelling [3_modelling] </b>
 
 The Hybrid Yelp Rating Predictor uses the outputs  from 3 separate models. 
+
 Outputs have been saved to a csv file "/3_modelling/yelp_cleaned_sentiscored.csv". 
+
 The notebook "Hybrid_Yelp_Predictor.ipynb" contains the entire modelling pipeline and its evaluation metrics.  ("3_modelling/Hybrid_Yelp_Predictor.ipynb").
  
 4. <b> Evaluation </b>
