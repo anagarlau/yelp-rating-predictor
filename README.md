@@ -3,8 +3,10 @@
 #### Gruppe 18 - HTW BERLIN 
 
  
-#### Before Testing the Code please download the Glove word vectors for German from <a href="https://www.deepset.ai/german-word-embeddings">DeepSet AI</a> 
+#### ❗ Before Testing the Code please download the Glove word vectors for German from <a href="https://www.deepset.ai/german-word-embeddings">DeepSet AI</a> 
 
+
+#### ❗ If notebook "3_modelling/Hybrid_Yelp_Predictor.ipynb" is not rendered in the browser via github due to error "unable to render rich display", please use https://nbviewer.org/github/anagarlau/yelp-rating-predictor/blob/main/3_modelling/Hybrid_Yelp_Predictor.ipynb to render it
 
 In the era of internet shopping and dining, online reviews play a pivotal role in the customers' decision-making process.
 
